@@ -1,0 +1,15 @@
+{
+    "Kabir": {
+        "last_emotion": "excited",
+        "last_conversation": "Here is a 2-sentence summary of the conversation: Kabir initially expressed feeling alright despite previous frustrations with academic pressure, but later revealed he was looking for ways to manage stress and anxiety, leading to a discussion on the benefits of walking in nature for mental health. Kabir also shared his current coping mechanisms, including gaming, watching anime, and spending time with friends and family, and the conversation explored ways to balance these activities with academic responsibilities and prioritize mental well-being."
+    },
+    "Gabriel": {
+        "name": "Gabriel",
+        "major": "Computer Science",
+        "year_of_study": "3",
+        "common_stressors": "assignments and hard deadlines",
+        "university": "centennial college",
+        "last_emotion": "frustrated",
+        "last_conversation": "This conversation is about a Computer Science student named Gabriel who is feeling stressed and overwhelmed with multiple assignments and an upcoming exam. The chatbot is trying to help Gabriel by listening to his concerns and offering support to break down his problems and make them feel more manageable."
+    }
+}
