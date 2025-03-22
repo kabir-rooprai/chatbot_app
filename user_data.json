@@ -1,7 +1,12 @@
 {
     "Kabir": {
-        "last_emotion": "excited",
-        "last_conversation": "Here is a 2-sentence summary of the conversation: Kabir initially expressed feeling alright despite previous frustrations with academic pressure, but later revealed he was looking for ways to manage stress and anxiety, leading to a discussion on the benefits of walking in nature for mental health. Kabir also shared his current coping mechanisms, including gaming, watching anime, and spending time with friends and family, and the conversation explored ways to balance these activities with academic responsibilities and prioritize mental well-being."
+        "last_emotion": "frustrated",
+        "last_conversation": "Kabir initially expressed feeling alright despite previous frustrations with academic pressure, but later revealed he was looking for ways to manage stress and anxiety, leading to a discussion on the benefits of walking in nature for mental health. Kabir also shared his current coping mechanisms, including gaming, watching anime, and spending time with friends and family, and the conversation explored ways to balance these activities with academic responsibilities and prioritize mental well-being.",
+        "name": "Kabir",
+        "major": "Software Engineering",
+        "year_of_study": "3",
+        "common_stressors": "assignment deadlines",
+        "university": "Centennial College"
     },
     "Gabriel": {
         "name": "Gabriel",
@@ -11,5 +16,28 @@
         "university": "centennial college",
         "last_emotion": "frustrated",
         "last_conversation": "This conversation is about a Computer Science student named Gabriel who is feeling stressed and overwhelmed with multiple assignments and an upcoming exam. The chatbot is trying to help Gabriel by listening to his concerns and offering support to break down his problems and make them feel more manageable."
+    },
+    "Koro": {
+        "name": "Koro",
+        "major": "CS",
+        "year_of_study": "3",
+        "common_stressors": "assignments",
+        "university": "Centennial",
+        "last_emotion": "neutral",
+        "last_conversation": "The user is struggling with social anxiety, experiencing symptoms such as nervousness, stuttering, and headaches when interacting with new people. They are seeking help and are open to trying suggestions to overcome their social anxiety."
+    },
+    "Horace": {
+        "name": "Horace",
+        "major": "AI SET",
+        "year_of_study": "2024",
+        "common_stressors": "",
+        "university": "Centennial College"
+    },
+    "vraj": {
+        "name": "vraj",
+        "major": "degree",
+        "year_of_study": "2023",
+        "common_stressors": "anxious",
+        "university": "bits"
     }
 }
