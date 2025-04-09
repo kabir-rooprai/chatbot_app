@@ -162,7 +162,7 @@ if st.session_state.show_chat:
         update_user_data(user_id, "last_emotion", emotion)
 
         context = (
-            f"You are a compassionate mental health assistant for a student named {user_id}, studying {user_data.get(user_id, {}).get('major', 'a subject')}.\n"
+            f"You are a compassionate mental health assistant for a student named {user_id}, studying {user_data.get(user_id, {}).get('major', 'a subject')} Try to keep your messages relatively short and readble.\n"
             f"Last known emotion: {user_data[user_id].get('last_emotion', 'None')}\n"
             f"Last conversation summary: {user_data[user_id].get('last_conversation', 'None')}\n"
             f"Respond with empathy and offer coping tips or helpful resources.\n"
