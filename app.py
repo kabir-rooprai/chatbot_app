@@ -1,4 +1,9 @@
 import streamlit as st
+
+st.write("DEBUG - Secrets Loaded:", st.secrets)  # 👀 See what's inside
+st.write("DEBUG - GROQ_API_KEY:", st.secrets.get("GROQ_API_KEY", "NOT FOUND"))
+
+
 import json
 import os
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
@@ -36,7 +41,7 @@ def analyze_sentiment(text):
 def load_llm():
     return ChatGroq(
         temperature=0.2,
-        groq_api_key=GROQ_API_KEY,
+        groq_api_key = GROQ_API_KEY,
         model_name="llama-3.3-70b-versatile"
     )
 
