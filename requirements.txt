@@ -1,0 +1,9 @@
+streamlit
+vaderSentiment
+langchain
+langchain_groq
+langchain_core
+langchain_community
+pypdf
+chromadb
+sentence_transformers
