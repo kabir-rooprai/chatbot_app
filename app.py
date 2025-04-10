@@ -7,13 +7,16 @@ from firebase_admin import credentials, firestore
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from langchain_groq import ChatGroq
 import streamlit as st
+import json
+from firebase_admin import credentials
 
 # -------------------------------
 # Firebase Setup
 # -------------------------------
 
 # Load Firebase credentials
-cred = credentials.Certificate("firebase key.json")
+firebase_key_dict = json.loads(st.secrets["firebase_key"])
+cred = credentials.Certificate(firebase_key_dict)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
