@@ -6,7 +6,6 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from langchain_groq import ChatGroq
-import gradio as gr
 import streamlit as st
 
 # -------------------------------
