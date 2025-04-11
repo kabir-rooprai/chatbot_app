@@ -107,8 +107,8 @@ if user_id:
         st.session_state.input = ""
 
     with st.form(key="chat_form", clear_on_submit=True):
-    user_input = st.text_input("Type your message:", key="input", label_visibility="collapsed")
-    send_clicked = st.form_submit_button("Send")
+        user_input = st.text_input("Type your message:", key="input", label_visibility="collapsed")
+        send_clicked = st.form_submit_button("Send")
 
     
     if send_clicked and user_input:
