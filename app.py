@@ -103,10 +103,8 @@ if user_id:
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
-    if "input" not in st.session_state:
-        st.session_state.input = ""
 
-    user_input = st.text_input("Type your message:", key="input", label_visibility="collapsed")
+    user_input = st.text_input("Type your message:", label_visibility="collapsed")
     send_clicked = st.button("Send")
     
     if send_clicked and user_input:
@@ -128,9 +126,6 @@ if user_id:
         bot_response = llm.invoke(prompt).content.strip()
         st.session_state.chat_history.append((user_input, bot_response))
         update_user_data(user_id, "last_conversation", bot_response)
-
-        # Clear input field
-        st.session_state.input = ""
 
     for user_msg, bot_msg in st.session_state.chat_history:
         st.markdown(f"""
