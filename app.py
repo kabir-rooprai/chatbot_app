@@ -106,8 +106,10 @@ if user_id:
     if "input" not in st.session_state:
         st.session_state.input = ""
 
+    with st.form(key="chat_form", clear_on_submit=True):
     user_input = st.text_input("Type your message:", key="input", label_visibility="collapsed")
-    send_clicked = st.button("Send")
+    send_clicked = st.form_submit_button("Send")
+
     
     if send_clicked and user_input:
         emotion = analyze_sentiment(user_input)
