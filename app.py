@@ -128,7 +128,7 @@ if user_id:
         bot_response = llm.invoke(prompt).content.strip()
         st.session_state.chat_history.append((user_input, bot_response))
         update_user_data(user_id, "last_conversation", bot_response)
-        st.experimental_rerun()
+        st.rerun()
 
     # Display chat with icons
     for user_msg, bot_msg in st.session_state.chat_history:
@@ -152,7 +152,7 @@ if user_id:
                 "exit", "Thanks for chatting. You're doing amazing. Come back anytime! 🌟"
             ))
             st.success("Conversation saved.")
-            st.experimental_rerun()
+            st.rerun()
 
     st.markdown("---")
     st.markdown(get_resources(university if university else ""))
